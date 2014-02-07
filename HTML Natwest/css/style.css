@@ -84,6 +84,7 @@ nav ul li:nth-child(2) a:hover {
 	background: url('../img/accountsummarylogo.png') no-repeat, #20234B;
 	background-position: 14px 33px;
 	background-size: 27px 27px;
+	opacity: 0.9;
 }
 
 
@@ -97,6 +98,7 @@ nav ul li:nth-child(3) a:hover {
 	background:url('../img/statementslogo.png') no-repeat, #20234B;
 	background-position: 22px 33px;
 	background-size: 17px 27px;
+	opacity: 0.9;
 }
 
 nav ul li:nth-child(4) a {
@@ -109,6 +111,7 @@ nav ul li:nth-child(4) a:hover {
 	background:url('../img/paymentsandtransferslogo.png') no-repeat, #20234B;
 	background-position: 12px 32px;
 	background-size: 33px 28px;
+	opacity: 0.9;
 }
 
 nav ul li:last-child a{
@@ -192,10 +195,12 @@ form img {
 }
 .button1:hover {
 	background-color:transparent;
+	opacity:0.8;
 }
 .button1:active {
 	position:relative;
 	top:1px;
+	opacity:0.8;
 }
 
 
@@ -232,10 +237,12 @@ form img {
 }
 .button2:hover {
 	background-color:transparent;
+	opacity:0.8;
 }
 .button2:active {
 	position:relative;
 	top:1px;
+	opacity:0.8;
 }
 
 
