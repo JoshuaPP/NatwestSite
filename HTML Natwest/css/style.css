@@ -1,13 +1,17 @@
-html, body {
+html,
+body {
 	height: 100%;
-  	max-height:100%;
 }
 
 body {
 	font-size: 10px;
 	background-color: #FFF;
 	min-width: 550px;      /* 2x LC width + RC width */
-	
+}
+
+#wrapper {
+	background-color: rgb(255,255,255);
+	height:100%;
 }
 
 nav {
@@ -35,7 +39,6 @@ nav ul {
 
 nav ul li {
 	display: inline;
-	
 	margin-left:0;
 	margin-right: 0;
 }
@@ -65,7 +68,7 @@ nav ul li:first-child a {
 	font-size: 2em;
 	margin-top:-50px;
 	padding-left: 35px;
-	margin-right: 180px;
+	margin-right: 120px;
 	background: url('../img/logo.png') no-repeat;
 	background-position: -1px 48px;
 	background-size: 36px 30px;
@@ -75,8 +78,6 @@ nav ul li:nth-child(2) a {
 	background: url('../img/accountsummarylogo.png') no-repeat;
 	background-position: 14px 33px;
 	background-size: 27px 27px;
-	margin-left: 75px;
-
 }
 
 nav ul li:nth-child(2) a:hover {
@@ -156,7 +157,6 @@ nav ul li:last-child a{
 
 form {
 	background-color: rgb(250,250,250);
-	border-right: 1px solid rgb(204,204,204);
 	padding: 6px;
 	display: block;
 }
@@ -178,13 +178,34 @@ form img {
 	width:192px;
 	height:300px;
 }
+
+.button1 {
+	border: none;
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#952e99;
+	font-family:'Trebuchet MS';
+	font-size:1.6em;
+	font-weight:bold;
+	text-decoration:none;
+}
+.button1:hover {
+	background-color:transparent;
+}
+.button1:active {
+	position:relative;
+	top:1px;
+}
+
+
 /*--------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------*/
 
 #container {
   padding-left: 200px;   /* LC width */
   padding-right: 150px;  /* RC width */
-  
+  height: 80%;
 }
 
 #container .column {
@@ -198,6 +219,25 @@ form img {
   width: 100%;
 }
 
+.button2 {
+	border: none;
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#952e99;
+	font-family:'Trebuchet MS';
+	font-size:1.6em;
+	font-weight:bold;
+	text-decoration:none;
+}
+.button2:hover {
+	background-color:transparent;
+}
+.button2:active {
+	position:relative;
+	top:1px;
+}
+
 
 /*-------------------------------------------------------------------------------*/
 
@@ -206,6 +246,9 @@ form img {
   width: 200px;          /* LC width */
   right: 200px;          /* LC width */
   margin-left: -100%;
+  height:100%;
+  background-color: rgb(250,250,250);
+  border-right: 1px solid rgb(204,204,204);
 
  }
 
@@ -213,8 +256,11 @@ form img {
 /*-------------------------------------------------------------------------------*/
 
 #right {
-  width: 150px;          /* RC width */
+  width: 149px;          /* RC width */
   margin-right: -150px;  /* RC width */
+  background-color: rgb(250,250,250);
+  border-left: 1px solid rgb(204,204,204);
+  height:100%;
 }
 
 /*----------------------------------------------------------------------------------------*/
@@ -222,7 +268,7 @@ form img {
 #footer {
   clear: both;
   background-color: rgb(243,243,243);
-  height: 50px;
+  height: 37px;
   border-top: 1px solid rgb(204,204,204);
   font-size: 1.2em;
   color:#989898;
@@ -232,7 +278,7 @@ form img {
 	display: inline-block;
 	float: right;
 	margin-right: 25px;
-	line-height: 25px; 
+	line-height: 18.5px; 
 
 }
 
