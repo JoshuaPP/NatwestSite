@@ -195,10 +195,10 @@ nav ul li:last-child a{
 	cursor:pointer;
 	color:#952e99;
 	font-family:'Trebuchet MS';
-	font-size:1.3em;
+	font-size:1.5rem;
 	font-weight:bold;
 	text-decoration:none;
-	padding-left: 136px;
+	padding-left: 162px;
 	padding-right: 115px;
 }
 .button1:hover {
@@ -266,6 +266,12 @@ nav ul li:last-child a{
 	color:grey;
 }
 
+#right span a {
+	color:grey;
+	text-decoration: none;
+}
+
+
 i.fa-comments{
 	padding-right:6px;
 }
@@ -285,7 +291,7 @@ i.fa-building-o{
 
 #container {
   padding-left: 400px;   /* LC width */
-  padding-right: 300px;  /* RC width */
+  padding-right: 400px;  /* RC width */
   height: 80%;
 }
 
@@ -298,16 +304,32 @@ i.fa-building-o{
 
 #center {
   width: 100%;
+  margin-top:30px;
+}
+
+
+#center table {
+	border:1px solid lightgrey;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 30px;
+} 
+
+.border {
+	border: 1px solid lightgrey;
+}
+
+.border-top {
+	border-top: 1px solid lightgrey;
 }
 
 .button2 {
 	border: none;
 	background-color:transparent;
-	display:inline-block;
 	cursor:pointer;
 	color:#952e99;
 	font-family:'Trebuchet MS';
-	font-size:1.6em;
+	font-size:1.5rem;
 	font-weight:bold;
 	text-decoration:none;
 }
@@ -316,10 +338,67 @@ i.fa-building-o{
 	opacity:0.8;
 }
 .button2:active {
-	position:relative;
 	opacity:0.8;
 }
 
+
+
+
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+#center .middlecenter {
+	border: 1px solid lightgrey;
+	padding: 15px;
+}
+
+#center .middlecenter h1 {
+	margin-top: 0.5em;
+	float: left;
+	line-height: 1;
+	padding-left: 20px;
+}
+
+#center .middlecenter input {
+	float: right;
+	margin-top: 0.5em;
+	padding-right: 20px;
+}
+
+#center .middlecenter hr {
+	opacity:0.2;
+	width: 100%;
+	padding:0;
+}
+
+#center .bottomcenter {
+	border: 1px solid lightgrey;
+	padding: 15px;
+}
+
+
+
+.button3 {
+	border: none;
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#952e99;
+	font-family:'Trebuchet MS';
+	font-size:1.5rem;
+	font-weight:bold;
+	text-decoration:none;
+}
+.button3:hover {
+	background-color:transparent;
+	opacity:0.8;
+}
+.button3:active {
+	position:relative;
+	opacity:0.8;
+}
 
 /*-------------------------------LEFT---------------------------------------------*/
 
@@ -339,11 +418,12 @@ i.fa-building-o{
 /*---------------------------------RIGHT----------------------------------------------*/
 
 #right {
-  width: 290px;          /* RC width */
-  margin-right: -390px;  /* RC width */
+  width: 299px;          /* RC width */
+  margin-right: -399px;  /* RC width */
   background-color: rgb(250,250,250);
   border-left: 1px solid rgb(204,204,204);
   height:100%;
+  margin-left: 97px;
 }
 
 /*------------------------------FOOTER-----------------------------------------------*/
